@@ -1,0 +1,57 @@
+.textarea {
+  height: 400px;
+  resize: none;
+}
+
+.header-section {
+  width: auto;
+  height: 15%;
+}
+
+#docicons {
+    height: 50px;
+}
+
+#nav {
+  display: inline;
+  padding-left: 55%;
+  position: relative;
+}
+
+#nav-active {
+  background: rgb(224, 225, 226);
+}
+
+#title {
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+#popdown {
+  /*width: 40% !important;*/
+  overflow: visible;
+}
+
+#notes {
+  outline: none;
+  border: none;
+  height: 500px;
+  width: 100%;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(53,85,131,0.1) 0%,rgba(255,255,255,0.2) 8%);
+  background-size: 100% 25px,10% 10%;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(118,80,13,0.9);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.25;
+  resize: none;
+  max-height: 500px;
+  overflow: auto;
+}
+
+#overlap {
+  color: purple;
+}

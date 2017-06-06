@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/Semantic-UI-CSS-master/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="/Semantic-UI-CSS-master/semantic.min.js"></script>
+    <script type ="text/javascript" src="/javascript/main.js"></script>
+  </head>
+  <body>
+    <div class="ui grid">
+      <div class="two wide column"></div>
+      <div class="twelve wide centered column">
+        <div class="header-section">
+          <h1 id="title">Fluid Notes</h1>
+        </div>
+      </div>
+      <div class="two wide column"></div>
+    </div>
+    <div id="docicons" class="ui grid">
+      <div class="two wide column"></div>
+      <div class="two wide left aligned column">
+        <div class="ui icon buttons">
+          <button class="ui button"><i class="align left icon"></i></button>
+          <button class="ui button"><i class="align center icon"></i></button>
+          <button class="ui button"><i class="align right icon"></i></button>
+          <button class="ui button"><i class="align justify icon"></i></button>
+        </div>
+      </div>
+      <div class="two wide left aligned column">
+        <div class="ui icon buttons">
+          <button id="bold" class="ui button"><i class="bold icon"></i></button>
+          <button class="ui button"><i class="underline icon"></i></button>
+          <button class="ui button"><i class="italic icon"></i></button>
+        </div>
+      </div>
+      <div class="four wide column">
+        <div class="ui icon buttons">
+          <button class="ui button"><i class="save icon"></i></button>
+          <button class="ui button"><i class="underline icon"></i></button>
+          <button class="ui button"><i class="italic icon"></i></button>
+        </div>
+      </div>
+      <div class="four wide column">
+        <div class="ui right floated menu">
+          <button id="nav-active" class="circular ui icon button">
+            <i class="icon settings"></i>
+          </button>
+        </div>
+        <div id="popdown" class="ui fluid popup bottom left transition hidden">
+          <div class="ui two column relaxed height divided grid">
+            <div class="column">
+              <h4 class="ui header">Background</h4>
+              <div class="ui link list">
+                <a id="desk" class="item">Desk</a>
+                <a id="darkforest" class="item">Dark Forest</a>
+                <a id="space" class="item">Space</a>
+                <a class="item">White</a>
+                <a class="item">Hell</a>
+                <a class="item">Life Aquatic</a>
+              </div>
+            </div>
+            <div class="column">
+              <h4 class="ui header">Writing Surface</h4>
+              <div class="ui link list">
+                <a class="item">College Ruled</a>
+                <a class="item">Chalkboard</a>
+                <a class="item">Whiteboard</a>
+                <a class="item">Legal Pad</a>
+                <a class="item">Donald Trump</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="two wide column"></div>
+    </div>
+    <div class="ui grid">
+      <div class="two wide column"></div>
+      <div class="twelve wide column">
+        <div class="standard" id="paper">
+          <div id="overlap"></div>
+          <script id="keyCatcher">
+            var keyCatch = [];
+          </script>
+          <div id="notes" contenteditable="true" data-color_dark="rgb(255, 255, 230)" data-color_standard="rgb(0, 0, 24)"></div>
+        </div>
+      </div>
+      <div class="two wide column"></div>
+    </div>
+  </body>
+</html>
